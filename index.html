@@ -2,6 +2,16 @@
 
 <html>
   <body>
-    <a onload="document.write(document.cookie)">cookie</a>
+    <script>
+
+
+      var cookie = document.getElementById("cookie")
+      cookie.value = document.cookies();
+
+
+    </script>
+
+
+    <a id="cookie">cookie</a>
   </body>
 </html>
